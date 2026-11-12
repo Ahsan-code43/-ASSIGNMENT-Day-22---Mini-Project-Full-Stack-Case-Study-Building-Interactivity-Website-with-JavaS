@@ -1,17 +1,19 @@
+# MINI PROJECT
+
 **Nama:** Muhammad Rizqon Ahsany
 **Kelas:** FWD-Batch-13
 
 # DOM Ditambahkan
 ## 1. Memilih Varian Produk
-Bertujuan untuk pengguna dapat memilih varian dari produk yaiu Black atau Silver. Menggunakan `function changeVariant(color)`.
+Bertujuan untuk pengguna dapat memilih varian dari produk yaiu Black atau Silver. Menggunakan `function changeVariant(color)`. Ketika pengguna memilih salah satu warna, maka informasi yang meliputi gambar produk, nama warna, informasi stok dan ringkasan varian akan berubah di halaman. Parameter `color` menujukkan warna yang dipilih oleh pengguna. 
 ## 2. Menambah Quantity
-Bertujuan untuk pengguna dapat menambahkan jumlah produk yang ingin dibeli dengan menekan tombo plus `(+)`. Menggunakan fuction `changeQuantity(amount)`.
+Bertujuan untuk pengguna dapat menambahkan jumlah produk yang ingin dibeli dengan menekan tombo plus `(+)`. Menggunakan fuction `changeQuantity(amount)`. Setiap kali tombol `(+)` ditekan, quantity prduk akan bertambah satu dan subtotal akan dihitung secara otomatis. 
 
 ## 3. Mengurangi Quantity
-Bertujuan untuk pengguna dapat mengurangi jumlah produk yang ingin dibeli dengan menekan tombo minus `(-)`. Menggunakan fuction `changeQuantity(amount)`.
+Bertujuan untuk pengguna dapat mengurangi jumlah produk yang ingin dibeli dengan menekan tombo minus `(-)`. Menggunakan fuction `changeQuantity(amount)`.Setiap kali tombol `(-)` ditekan, quantity prduk akan berkurang satu dan subtotal akan dihitung secara otomatis. 
 
 ## 4. Mengubah Quantity Manual
-Bertujuan untuk pengguna dapat memasukkan quantity secara langsung tanpa harus menekan tombol plus `(+)` dan minus `(-)`. Menggunakan `function updateSummary()`.
+Bertujuan untuk pengguna dapat memasukkan quantity secara langsung tanpa harus menekan tombol plus `(+)` dan minus `(-)`. Menggunakan `function updateSummary()`. Ketika pengguna melakukat input, maka akan divalidasi dengan funtion `validateQuantity()`. function tersebut akan memastikan apakah input yang dimasukkan adalah bilangan bulat positif dan tidak melebihi stok barang. Jika tidak valid akan menampilkan pesan error.
 
 ## 5. Add to Cart
 Bertujuan untuk menambahkan produk ke keranjang lokal setelah pengguna menentukan warna dan quantity. Menggunakan `function addToCart()`.
