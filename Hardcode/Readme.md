@@ -1,21 +1,34 @@
 *Nama:* Muhammad Rizqon Ahsany
 *Kelas:* FWD-Batch-13
 
-# Pengujian Interaksi DOM — Dynamic M75B
+# DOM Ditambahkan
+## 1. Memilih Varian Produk
+Bertujuan untuk pengguna dapat memilih varian dari produk yaiu Black atau Silver. Menggunakan function changeVariant(color)
+## 2. Menambah Quantity
+Bertujuan untuk pengguna dapat menambahkan jumlah produk yang ingin dibeli dengan menekan tombo plus (+). Menggunakan fuction changeQuantity(amount)
+
+## 3. Mengurangi Quantity
+Bertujuan untuk pengguna dapat mengurangi jumlah produk yang ingin dibeli dengan menekan tombo minus (-). Menggunakan fuction changeQuantity(amount).
+
+## 4. Mengubah Quantity Manual
+Bertujuan untuk pengguna dapat memasukkan quantity secara langsung tanpa harus menekan tombol plus (+) dan minus (-). Menggunakan function updateSummary().
+
+## 5. Add to Cart
+Bertujuan untuk menambahkan produk ke keranjang lokal setelah pengguna menentukan warna dan quantity. Menggunakan function addToCart().
+
+
+# Pengujian Interaksi DOM
 
 ## 1. Informasi Pengujian
 
 - **Halaman:** Product Detail – Dynamic M75B
 - **File:** `Hardcode/Halaman-JS.html`
 - **Teknologi:** HTML, CSS, Vanilla JavaScript
-- **Sumber data:** Hardcoded (tanpa API)
-- **Metode pengujian:** Manual menggunakan browser
-- **Jumlah interaksi DOM:** 5
 - **Jumlah skenario pengujian:** 10
 
 ## 2. Tabel Pengujian DOM
 
-| No. | Input/Kondisi | Expected Result | Actual Result | Screenshot |
+| No. | Input | Expected Result | Actual Result | Screenshot |
 |---|---|---|---|---|
 | 1 | Pilih varian Black | Gambar berubah menjadi Black, nama warna Black, stok 10 item. | Berhasil berubah menjadi Black. |[HASIL](Pengujian/Input1.png) |
 | 2 | Pilih varian Silver | Gambar berubah menjadi Silver, nama warna Silver, stok 8 item. | Berhasil berubah menjadi Silver. |[HASIL](Pengujian/Input2.png) |
