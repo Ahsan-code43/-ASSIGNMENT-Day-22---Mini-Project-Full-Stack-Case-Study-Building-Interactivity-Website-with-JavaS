@@ -3,18 +3,18 @@
 
 # DOM Ditambahkan
 ## 1. Memilih Varian Produk
-Bertujuan untuk pengguna dapat memilih varian dari produk yaiu Black atau Silver. Menggunakan function changeVariant(color)
+Bertujuan untuk pengguna dapat memilih varian dari produk yaiu Black atau Silver. Menggunakan 'function changeVariant(color)'.
 ## 2. Menambah Quantity
-Bertujuan untuk pengguna dapat menambahkan jumlah produk yang ingin dibeli dengan menekan tombo plus (+). Menggunakan fuction changeQuantity(amount)
+Bertujuan untuk pengguna dapat menambahkan jumlah produk yang ingin dibeli dengan menekan tombo plus '(+)'. Menggunakan fuction 'changeQuantity(amount)'.
 
 ## 3. Mengurangi Quantity
-Bertujuan untuk pengguna dapat mengurangi jumlah produk yang ingin dibeli dengan menekan tombo minus (-). Menggunakan fuction changeQuantity(amount).
+Bertujuan untuk pengguna dapat mengurangi jumlah produk yang ingin dibeli dengan menekan tombo minus '(-)'. Menggunakan fuction 'changeQuantity(amount)'.
 
 ## 4. Mengubah Quantity Manual
-Bertujuan untuk pengguna dapat memasukkan quantity secara langsung tanpa harus menekan tombol plus (+) dan minus (-). Menggunakan function updateSummary().
+Bertujuan untuk pengguna dapat memasukkan quantity secara langsung tanpa harus menekan tombol plus '(+)' dan minus '(-)'. Menggunakan function updateSummary'()'.
 
 ## 5. Add to Cart
-Bertujuan untuk menambahkan produk ke keranjang lokal setelah pengguna menentukan warna dan quantity. Menggunakan function addToCart().
+Bertujuan untuk menambahkan produk ke keranjang lokal setelah pengguna menentukan warna dan quantity. Menggunakan 'function addToCart()'.
 
 
 # Pengujian Interaksi DOM
