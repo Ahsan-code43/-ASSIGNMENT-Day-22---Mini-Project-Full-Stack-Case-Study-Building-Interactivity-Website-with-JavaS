@@ -1,0 +1,31 @@
+*Nama:* Muhammad Rizqon Ahsany
+*Kelas:* FWD-Batch-13
+
+# Pengujian Interaksi DOM — Dynamic M75B
+
+## 1. Informasi Pengujian
+
+- **Halaman:** Product Detail – Dynamic M75B
+- **File:** `Hardcode/Halaman-JS.html`
+- **Teknologi:** HTML, CSS, Vanilla JavaScript
+- **Sumber data:** Hardcoded (tanpa API)
+- **Metode pengujian:** Manual menggunakan browser
+- **Jumlah interaksi DOM:** 5
+- **Jumlah skenario pengujian:** 10
+
+## 2. Tabel Pengujian DOM
+
+| No. | Input/Kondisi | Expected Result | Actual Result | Screenshot |
+|---|---|---|---|---|
+| 1 | Pilih varian Black | Gambar berubah menjadi Black, nama warna Black, stok 10 item. | Berhasil berubah menjadi Black. |[HASIL](Hardcode/Pengujian/Input1) |
+| 2 | Pilih varian Silver | Gambar berubah menjadi Silver, nama warna Silver, stok 8 item. | Berhasil berubah menjadi Silver. |[HASIL](Hardcode/Pengujian/Input2) |
+| 3 | Ubah warna dari Silver ke Black | Informasi gambar, warna, dan stok kembali mengikuti varian Black tanpa reload halaman. | Berhasil tanpa reload. |[HASIL](Hardcode/Pengujian/Input3) |
+| 4 | Quantity 1, tekan tombol (+) | Quantity berubah menjadi 2, subtotal menjadi Rp2.998.000. | Subtotal menjadi Rp2.998.000. |[HASIL](Hardcode/Pengujian/Input4) |
+| 5 | Varian Silver, quantity mencapai 8 | Tombol (+) dinonaktifkan karena mencapai batas stok. | Tombol nonaktif. |[HASIL](Hardcode/Pengujian/Input5) |
+| 6 | Quantity mencapai 1 | Tombol (−) dinonaktifkan agar quantity tidak berkurang melalui tombol. | Tombol (−) nonaktif. |[HASIL](Hardcode/Pengujian/Input6) |
+| 7 | Masukkan quantity -5 | Muncul pesan error karena quantity negatif. | Pesan error muncul. |[HASIL](Hardcode/Pengujian/Input7) |
+| 8 | Masukkan quantity 2,5 | Muncul pesan error karena quantity bukan bilangan bulat. | Pesan error muncul. |[HASIL](Hardcode/Pengujian/Input8) |
+| 9 | Varian Silver, masukkan quantity 10 | Muncul pesan error karena melebihi stok Silver (8). | Pesan error muncul. |[HASIL](Hardcode/Pengujian/Input9) |
+| 10 | Black quantity 5, tekan Add to Cart | Muncul pesan sukses dan cart badge bertambah menjadi 5. | Pesan muncul, cart badge berubah. |[HASIL](Hardcode/Pengujian/Input10)|
+
+
